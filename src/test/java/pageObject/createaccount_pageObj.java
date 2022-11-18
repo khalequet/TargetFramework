@@ -39,9 +39,6 @@ public class createaccount_pageObj extends Config {
     @FindBy (how = How.NAME, using = "passwordcreateaccount")
     public WebElement createPasswordLocator;
 
-//    @FindBy (how = How.ID, using = "Create account")
-//    public WebElement createAccounttosignupLocator;
-
     @FindBy (how = How.XPATH, using = "//button[@class='BaseButton-sc-j0jbcc-0 ButtonPrimary-sc-1qgspc1-0 styles__ButtonWithMargin-sc-1ltb4ye-4 iISjbi fphwbC lbdwpj']")
     public WebElement createAccounttosignupLocator;
 
@@ -85,13 +82,6 @@ public class createaccount_pageObj extends Config {
         createPasswordLocator.sendKeys(password);
     }
 
-//    public void enterINvaildemailAddress(){
-//        emailAddressLocator.sendKeys("tkhale95@gmail.com");
-//    }
-//
-//    public void enterINvailpassword(){
-//        emailAddressLocator.sendKeys("tkhale95@gmail.com");
-//    }
 
 
 

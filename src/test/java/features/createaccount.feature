@@ -4,7 +4,7 @@ Feature: Create Account
     And i click on sign in button
     And i click on create account
 
-@signup1
+@signup
   Scenario: verify user can create new account using valid information
 
 
@@ -16,7 +16,7 @@ Feature: Create Account
     When i click on the create account button
     Then i should be able to successfully create an account
 
-  @signup
+  @signup1
   Scenario: verify user can create new account using invalid information
 
     And i enter invalid email address

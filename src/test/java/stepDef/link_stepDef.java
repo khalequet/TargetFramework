@@ -11,7 +11,7 @@ link_pageObj lPage = new link_pageObj(driver);
 
 
     @And("count and verify service section links to ensure it navigates you to particular page")
-    public void countAndVerifyServiceSectionLinksToEnsureItNavigatesYouToParticularPage() throws InterruptedException {
+    public void countAndVerifyServiceSectionLinksToEnsureItNavigatesYouToParticularPage()  {
         lPage.verifyandcountlinks();
     }
 }

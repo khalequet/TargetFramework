@@ -3,56 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "line": 2,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 142604000,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "i am at Target Homepage",
-            "match": {
-              "location": "stepDef.createaccount_stepDef.iAmAtTargetHomepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 954120000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "i click on sign in button",
-            "match": {
-              "location": "stepDef.createaccount_stepDef.iClickOnSignInButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1922054000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "i click on create account",
-            "match": {
-              "location": "stepDef.createaccount_stepDef.iClickOnCreateAccount()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-11-16T03:01:49.431Z",
+        "start_timestamp": "2022-11-18T02:52:18.041Z",
         "before": [
           {
             "result": {
-              "duration": 12313962000,
+              "duration": 7612167000,
               "status": "passed"
             },
             "match": {
@@ -60,14 +15,14 @@
             }
           }
         ],
-        "line": 20,
-        "name": "verify user can create new account using invalid information",
+        "line": 3,
+        "name": "count and verify footer\u0027s service section links",
         "description": "",
-        "id": "create-account;verify-user-can-create-new-account-using-invalid-information",
+        "id": "create-account;count-and-verify-footer-s-service-section-links",
         "after": [
           {
             "result": {
-              "duration": 3560000,
+              "duration": 2060000,
               "status": "passed"
             },
             "match": {
@@ -80,92 +35,32 @@
         "steps": [
           {
             "result": {
-              "duration": 808986000,
+              "duration": 370739000,
               "status": "passed"
             },
-            "line": 22,
-            "name": "i enter invalid email address",
+            "line": 5,
+            "name": "i am at Target Homepage",
             "match": {
-              "location": "stepDef.createaccount_stepDef.iEnterInvalidEmailAddress()"
+              "location": "stepDef.createaccount_stepDef.iAmAtTargetHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 48222378000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "count and verify service section links to ensure it navigates you to particular page",
+            "match": {
+              "location": "stepDef.link_stepDef.countAndVerifyServiceSectionLinksToEnsureItNavigatesYouToParticularPage()"
             },
             "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 362180000,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "i enter first name",
-            "match": {
-              "location": "stepDef.createaccount_stepDef.iEnterFirstName()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 185984000,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "i enter last name",
-            "match": {
-              "location": "stepDef.createaccount_stepDef.iEnterLastName()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 306034000,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "i enter phone number",
-            "match": {
-              "location": "stepDef.createaccount_stepDef.iEnterPhoneNumber()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 296396000,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "i enter create invalid password",
-            "match": {
-              "location": "stepDef.createaccount_stepDef.iEnterCreateInvalidPassword()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 95175000,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "i click on the create account button",
-            "match": {
-              "location": "stepDef.createaccount_stepDef.iClickOnTheCreateAccountButton()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 409895000,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "i should not be able to successfully create an account",
-            "match": {
-              "location": "stepDef.createaccount_stepDef.iShouldNotBeAbleToSuccessfullyCreateAnAccount()"
-            },
-            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@signup"
+            "name": "@link"
           }
         ]
       }
@@ -174,7 +69,7 @@
     "description": "",
     "id": "create-account",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/createaccount.feature",
+    "uri": "file:src/test/java/features/links.feature",
     "tags": []
   }
 ]
